@@ -3,8 +3,13 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:100%;
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
+`
+
+export const ContainerImage = styled.div`
+  height: 225px;
+  width: 100%;
 `
 
 export const GridContainer = styled.section`
@@ -14,7 +19,7 @@ padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
-@media ${(props) => props.theme.breakpoints.sm} {
+@media ${(props) => { console.log(props); return props.theme.breakpoints.sm}} {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -33,9 +38,9 @@ export const BlogCard = styled.div`
 `;
 export const TitleContent = styled.div`
   text-align: center;
+  margin-top: 10px;
   z-index: 20;
   width: 100%;
-
 `;
 
 
@@ -103,10 +108,14 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
+row-gap: 7px;
 padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
+width: 33%  ;
+word-wrap: normal;
 font-size: 1.5rem;
 `

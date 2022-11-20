@@ -17,28 +17,28 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href='#projects'>
-          <NavLink>Projects</NavLink>
+          <NavLink>Proyectos</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#tech'>
-          <NavLink>Technologies</NavLink>
+          <NavLink>Tecnologías</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#About'>
-          <NavLink>About me</NavLink>
+          <NavLink>Sobre mi</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com'>
+      <SocialIcons target='_blank' href='https://github.com/Adr-AA'>
         <AiFillGithub size='3rem'/>
       </SocialIcons>
-      <SocialIcons href='https://linkedin.com'>
+      <SocialIcons target='_blank' href='https://www.linkedin.com/in/adrian-acurero/'>
         <AiFillLinkedin size='3rem'/>
       </SocialIcons>
-      <SocialIcons href='https://instagram.com'>
+      <SocialIcons target='_blank' href='https://www.instagram.com/adriancitoox/'>
         <AiFillInstagram size='3rem'/>
       </SocialIcons>
     </Div3>

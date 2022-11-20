@@ -20,7 +20,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -44,20 +44,20 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id='about'>
+    <Section id='About'>
       <SectionTitle>About me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help xddddddddddddd
+        Soy un joven mega apasionado de la tecnología. Me encanta enseñar porque el que enseña aprende el doble ( ese es mi lema )
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
-              <CarouselItem 
-              index={index}
-              id={`carousel__item-${index}`} 
-              active={activeItem}
-              onClick={e => handleClick(e, index)}
+              <CarouselItem
+                index={index}
+                id={`carousel__item-${index}`}
+                active={activeItem}
+                onClick={e => handleClick(e, index)}
               >
                 <CarouselItemTitle>
                   {item.year}
@@ -71,18 +71,18 @@ const Timeline = () => {
       </CarouselContainer>
       <CarouselButtons>
         {TimeLineData.map((item, index) => (
-          <CarouselButton 
-          key={index}
-          index={index}
-          active={activeItem}
-          onClick={e => handleClick(e, index)}
-          type='button'
+          <CarouselButton
+            key={index}
+            index={index}
+            active={activeItem}
+            onClick={e => handleClick(e, index)}
+            type='button'
           >
-            <CarouselButtonDot active={activeItem}/>
+            <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      {/* <SectionDivider /> */}
     </Section>
   );
 };

@@ -1,19 +1,29 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ContainerImage } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+import { Slideshow, Slide, TextoSlide } from '../slideshow/Slideshow';
+
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section padding id='projects'>
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Proyectos</SectionTitle>
     <GridContainer>
-      {projects.map(({id, title, description, image, visit, source, video, tags}) => (
+      {projects.map(({ id, title, description, images, visit, source, video, tags, download }) => (
         <BlogCard key={id}>
-          <Img src={image}/>
+          <Slideshow controles={true}>
+            {images.map(image =>
+              <Slide>
+                <ContainerImage>
+                  <Img src={image} />
+                </ContainerImage>
+              </Slide>
+            )}
+          </Slideshow>
           <TitleContent>
-            <HeaderThree title>{title}</HeaderThree>  
+            <HeaderThree title>{title}</HeaderThree>
           </TitleContent>
           <Hr />
           <CardInfo>{description}</CardInfo>
@@ -26,9 +36,10 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            { video && <ExternalLinks href={video}>Video</ExternalLinks>}
-            <ExternalLinks href={source}>Source</ExternalLinks>
+            {visit && <ExternalLinks target='_blank' href={visit}>Code</ExternalLinks>}
+            {video && <ExternalLinks target='_blank' href={video}>Video</ExternalLinks>}
+            {download && <ExternalLinks target='_blank' href={download}>download</ExternalLinks>}
+            {source && <ExternalLinks target='_blank' href={source}>Source</ExternalLinks> }
           </UtilityList>
         </BlogCard>
       ))}

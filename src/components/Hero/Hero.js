@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
@@ -8,13 +9,15 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hola! <br />
+        Soy Adrian Acurero
       </SectionTitle>
       <SectionText>
-        My text
+        Desarrollador Full-Stack
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Text Button</Button>
+      <a target='_blank' href='https://www.linkedin.com/in/adrian-acurero/'>
+        <Button>Contáctame</Button>
+      </a>
     </LeftSection>
   </Section>
 );
