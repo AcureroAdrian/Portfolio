@@ -53,7 +53,7 @@ const Timeline = () => {
         en el desarrollo web Full-Stack
         <br />
         <br />
-        Aparte de programar soy fotografo y fimmaker, con buenas habilidades de hablar en publico 
+        Aparte de programar soy fotografo y filmmaker, con buenas habilidades de hablar en publico 
         y frente a la camara
         
         <br />
