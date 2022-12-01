@@ -40,9 +40,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Comencé mi camino como Java developer', },
-  /* { year: 2021, text: 'Aprendí sobre la industria y cree mis primeros softwares', }, */
-  { year: 2022, text: 'Entre al bootcamp intensivo de desarrollo web Full-Stack', },
-  { year: 2022, text: 'He trabajado en proyectos grupales e individuales', },
-  { year: 2022, text: 'Actualmente estoy perfeccionando mis conocimientos en  Server Side rendering', },
+  { year: 2020, text: 'Principio como Java developer', },
+  { year: 2021, text: 'Realizar trabajo freelance para la web con clientes de empresa', },
+  { year: 2022, text: 'Completar bootcamp intensivo de desarrollo web Full-Stack', },
+  { year: 2022, text: 'Trabajar como asesor de alumnos para el bootcamp soyHenry', },
+  { year: 2022, text: 'Emprender en numerosos proyectos grupales e individuales', },
 ];

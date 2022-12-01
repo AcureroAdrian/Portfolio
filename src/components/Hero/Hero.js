@@ -9,11 +9,11 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hola! <br />
+        Bienvenido!! <br />
         Soy Adrian Acurero
       </SectionTitle>
       <SectionText>
-        Desarrollador Full-Stack
+        Desarrollador Web Full-Stack
       </SectionText>
       <a target='_blank' href='https://www.linkedin.com/in/adrian-acurero/'>
         <Button>Contáctame</Button>

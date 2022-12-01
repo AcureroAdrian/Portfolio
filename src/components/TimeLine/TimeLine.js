@@ -45,9 +45,20 @@ const Timeline = () => {
 
   return (
     <Section id='About'>
-      <SectionTitle>About me</SectionTitle>
+      <SectionTitle>Sobre mi</SectionTitle>
       <SectionText>
-        Soy un joven mega apasionado de la tecnología. Me encanta enseñar porque el que enseña aprende el doble ( ese es mi lema )
+        A los 16 años de edad empeze como Java Developer, actualmente con 18 me especializo
+        en el desarrollo web Full-Stack
+        <br />
+        <br />
+        Aparte de programar soy fotografo y fimmaker, con buenas habilidades de hablar en publico 
+        y frente a la camara
+        
+        <br />
+        <br />
+
+        Me encanta aprender y enseñar, se dice que el enseña aprende el doble
+
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
