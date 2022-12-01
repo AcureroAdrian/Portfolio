@@ -45,6 +45,8 @@ const Timeline = () => {
 
   return (
     <Section id='About'>
+      <SectionDivider />
+      <br />
       <SectionTitle>Sobre mi</SectionTitle>
       <SectionText>
         A los 16 años de edad empeze como Java Developer, actualmente con 18 me especializo
