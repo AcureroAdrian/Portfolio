@@ -43,13 +43,13 @@ const Footer = () => {
           <Slogan>Nunca parar de aprender</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com'>
+          <SocialIcons href='https://www.instagram.com/acureroadrian/'>
             <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://linkedin.com'>
+          <SocialIcons href='https://www.linkedin.com/in/adrian-acurero/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://instagram.com'>
+          <SocialIcons href='https://www.instagram.com/acureroadrian/'>
             <AiFillInstagram size='3rem' />
           </SocialIcons>
         </SocialContainer>
