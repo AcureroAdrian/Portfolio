@@ -1,9 +1,13 @@
-import React from 'react';
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = () => (
   <Section row nopadding>
@@ -12,11 +16,9 @@ const Hero = () => (
         Bienvenido!! <br />
         Soy Adrian Acurero
       </SectionTitle>
-      <SectionText>
-        Desarrollador Web Full-Stack
-      </SectionText>
-      <a target='_blank' href='https://www.linkedin.com/in/adrian-acurero/'>
-        <Button>Contáctame</Button>
+      <SectionText>Desarrollador Web Full-Stack</SectionText>
+      <a href="/CVSpanish.pdf" download>
+        <Button>Descargar CV</Button>
       </a>
     </LeftSection>
   </Section>
