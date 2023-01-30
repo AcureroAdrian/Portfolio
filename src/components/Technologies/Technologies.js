@@ -1,44 +1,53 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
-  <Section id='tech'>
+const Technologies = () => (
+  <Section id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Tecnologías</SectionTitle>
-    <SectionText>
-      
-    </SectionText>
+    <SectionText></SectionText>
     <List>
       <ListItem>
-        <DiReact size='3rem' />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiencia en <br />
             • HTML5 - CSS3 - TypeScript <br />
-            • React.js - Next.js - React Native<br />
-            • Redux - Styled Components<br />
-            • TailwindCSS
+            • React.js - Next.js - React Native
+            <br />
+            • Redux - Styled Components
+            <br />• TailwindCSS - Sass
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiFirebase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experiencia en <br />
             • Typescript - Node.js - Express.js <br />
             • SQL - PostgreSQL - Sequelize <br />
-            • noSQL - MongoDB - Mongoose <br />
-            • Mongo Atlas - Ath0
+            • noSQL - MongoDB - Mongoose <br />• Mongo Atlas - Ath0
           </ListParagraph>
         </ListContainer>
       </ListItem>
-{/*       <ListItem>
+      {/*       <ListItem>
         <DiZend size='3rem' />
         <ListContainer>
           <ListTitle>Otras</ListTitle>
