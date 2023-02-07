@@ -75,12 +75,8 @@ export const projects = [
 export const TimeLineData = [
   { year: 2018, text: "Comienzo como desarrollador web autodidacta" },
   {
-    year: 2020,
+    year: 2022,
     text: "Graduado de un bootcamp intensivo en desarrollo Full-Stack",
-  },
-  {
-    year: 2020,
-    text: "Desempeñando el rol de programador Full-Stack en Turing",
   },
   {
     year: 2022,
@@ -88,6 +84,6 @@ export const TimeLineData = [
   },
   {
     year: 2023,
-    text: "Continuo expandiendo mis habilidades y participando en proyectos interesantes",
+    text: "Continuo expandiendo mis habilidades y participando en interesantes proyectos",
   },
 ];
