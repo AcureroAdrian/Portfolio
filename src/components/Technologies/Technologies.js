@@ -31,7 +31,7 @@ const Technologies = () => (
             • React.js - Next.js - React Native
             <br />
             • Redux - Styled Components
-            <br />• TailwindCSS - Sass
+            <br />• TailwindCSS - Sass - Jest
           </ListParagraph>
         </ListContainer>
       </ListItem>

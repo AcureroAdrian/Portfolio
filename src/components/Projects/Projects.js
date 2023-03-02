@@ -32,16 +32,16 @@ const Projects = () => (
         ({ id, title, description, images, visit, code, tags, download }) => (
           <BlogCard key={id}>
             <Slideshow controles={true}>
-              {images.map((image) => (
-                <Slide>
+              {images.map((image, index) => (
+                <Slide key={index}>
                   <ContainerImage>
-                    <Img src={image} />
+                    <Img loading="lazy" src={image} />
                   </ContainerImage>
                 </Slide>
               ))}
             </Slideshow>
             <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
+              <HeaderThree title='true'>{title}</HeaderThree>
             </TitleContent>
             <Hr />
             <CardInfo>{description}</CardInfo>

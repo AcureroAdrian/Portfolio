@@ -16,6 +16,7 @@ export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding: 3rem;
+  justify-items: center;
 
   column-gap: 2rem;
   row-gap: 3rem;
@@ -76,7 +77,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 0 2em;
   }
 `;
 

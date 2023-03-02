@@ -23,7 +23,7 @@ import ItemLine from "./ItemLine";
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  const [activeItem, setActiveItem] = useState(0);
+  /* const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
@@ -62,7 +62,7 @@ const Timeline = () => {
     };
 
     window.addEventListener("resize", handleResize);
-  }, []);
+  }, []); */
 
   return (
     <Section id="About">
@@ -70,7 +70,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>Sobre mi</SectionTitle>
       <SectionText>
-        Soy un apasionado autodidacta en la ciencia de la computación,
+        <i>👉</i> Soy un apasionado autodidacta en la ciencia de la computación,
         fotografía y Filmmaking. Desde los <b>14 años</b>, comencé mi camino
         como desarrollador web como hobby y ha evolucionado hasta convertirme en
         un <b>programador Full-Stack</b> experimentado.
@@ -99,7 +99,7 @@ const Timeline = () => {
           no dudes en contactarme.
         </b>
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -134,7 +134,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-      </CarouselButtons>
+      </CarouselButtons> */}
       {/* <SectionDivider /> */}
     </Section>
   );

@@ -22,6 +22,7 @@ export const LinkItem = styled.a`
 	transition: .3s ease;
 	position: relative;
 	left: 0;
+	letter-spacing: 0.8px;
 
 	&:hover {
 		color: #fff;
@@ -29,13 +30,13 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
+		font-size: 17px;
 		line-height: 28px;
 		display: flex;
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 13px;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -116,7 +117,7 @@ export const SocialContainer = styled.div`
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
-	grid-template-columns: repeat(3, minmax(85px, 220px));
+	grid-template-columns: repeat(2, minmax(85px, 220px));
 	gap: 40px;
   padding: 40px 0 28px;
 
@@ -152,7 +153,7 @@ export const LinkTitle = styled.h4`
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 10px;
+		font-size: 11px;
 		line-height: 12px;
 		margin-bottom: 8px;
 	}

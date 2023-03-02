@@ -55,7 +55,7 @@ const Footer = () => {
           <Slogan>Nunca parar de aprender</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons target="_black" href="https://github.com/Adr-AA">
+          <SocialIcons target="_black" href="https://github.com/AcureroAdrian">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons

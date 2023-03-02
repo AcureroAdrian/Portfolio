@@ -17,7 +17,7 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 23px")};
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -60,11 +60,11 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 90%;
-  font-size: 21px;
+  font-size: 22px;
   line-height: 32px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
 
   i {
     color: rgba(255, 255, 255, 0.95);
@@ -73,7 +73,7 @@ export const SectionText = styled.p`
 
   b {
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.75);
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -84,8 +84,8 @@ export const SectionText = styled.p`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 23px;
     padding-bottom: 16px;
   }
 `;

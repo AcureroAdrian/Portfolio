@@ -1,4 +1,5 @@
 export const projects = [
+  // Project 1
   {
     title: "Fit-Focus",
     description:
@@ -22,6 +23,39 @@ export const projects = [
     code: "https://github.com/Final-Project-Henry/Fit-Focus",
     id: 0,
   },
+    // Project 2
+  {
+    title: "HooBank",
+    description:
+      "Esta impresionante aplicación React es completamente responsiva y cuenta con una sección hero impactante y gradientes de alta calidad, estadísticas empresariales, secciones reutilizables ademas con botones de llamado a la acción, testimonios y mucho más. Además, esta aplicación de página única es totalmente compatible con cualquier tipo de dispositivo, lo que garantiza una experiencia de usuario fluida y de alta calidad",
+    images: [
+      "/images/hooBank/1.jpg",
+      "/images/hooBank/2.jpg",
+      "/images/hooBank/3.jpg",
+      "/images/hooBank/4.jpg",
+    ],
+    tags: ["React", "JavaScript", "TailwindCSS"],
+    code: "https://github.com/AcureroAdrian/hoobank",
+    visit: "https://hoobank-tawny.vercel.app",
+    id: 1,
+  },
+  // Project 3
+  {
+    title: "Gericht",
+    description:
+      "Una pagina estatica web moderna que presenta una interfaz elegante y fluida, utilizando ultimas tecnologías como React, JavaScript y CSS. La página presenta información relevante sobre el restaurante, como platos, ubicación y horarios. Su diseño limpio y navegación intuitiva la convierten en una excelente opción para promocionar el restaurante en línea y atraer a más clientes potenciales.",
+    images: [
+      "/images/gericht/1.jpg",
+      "/images/gericht/2.jpg",
+      "/images/gericht/3.jpg",
+      "/images/gericht/4.jpg",
+    ],
+    tags: ["React", "JavaScript", "CSS"],
+    code: "https://github.com/AcureroAdrian/Modern-restaurant-UI-UX",
+    visit: "https://modern-restaurant-ui-ux.vercel.app",
+    id: 2,
+  },
+  // Project 4
   {
     title: "To Do App",
     description:
@@ -34,10 +68,12 @@ export const projects = [
       "/images/toDoApp/5.jpg",
     ],
     tags: ["Next.js", "TypeScript", "MongoDB", "Mongoose", "Semantic UI React"],
-    code: "https://github.com/Adr-AA/toDo-next.js",
+    code: "https://github.com/AcureroAdrian/toDo-next.js",
     visit: "https://to-do-next-js-theta.vercel.app",
-    id: 1,
+    id: 3,
   },
+
+  // Project 5
   {
     title: "Crypto Tracker",
     description:
@@ -49,11 +85,12 @@ export const projects = [
       "/images/cryptoTracker/4.jpg",
     ],
     tags: ["React Native", "Typescript", "Redux", "Styled Components"],
-    code: "https://github.com/Adr-AA/Crypto-Tracker",
+    code: "https://github.com/AcureroAdrian/Crypto-Tracker",
     download:
       "https://drive.google.com/u/0/uc?id=1QMxEu-LGcvykOwO8pVL45Vu1KppC4a3R&export=download",
-    id: 2,
+    id: 4,
   },
+  // Project 6
   {
     title: "NFT Place",
     description:
@@ -66,20 +103,20 @@ export const projects = [
       "/images/NFTPlace/5.jpg",
     ],
     tags: ["React Native", "Typescript", "CSS3"],
-    code: "https://github.com/Adr-AA/React-Native-NFT",
-    visit: "https://expo.dev/@adr-aa/nft-place",
-    id: 3,
+    code: "https://github.com/AcureroAdrian/React-Native-NFT",
+    visit: "https://expo.dev/@AcureroAdrian/nft-place",
+    id: 5,
   },
 ];
 
 export const TimeLineData = [
   { year: 2018, text: "Comienzo como desarrollador web autodidacta" },
   {
-    year: 2022,
+    year: 2021,
     text: "Graduado de un bootcamp intensivo en desarrollo Full-Stack",
   },
   {
-    year: 2022,
+    year: 2021,
     text: "Trabajando como desarrollador Front-end en Umoob",
   },
   {
