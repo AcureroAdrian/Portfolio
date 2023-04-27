@@ -56,7 +56,7 @@ export const projects = [
     id: 2,
   },
   // Project 4
-  {
+ /*  {
     title: "To Do App",
     description:
       "To Do App es una solución intuitiva para la gestión de tareas diarias. Con una interfaz fácil de usar, puedes crear, ver, editar y eliminar tareas con solo unos pocos clics. La base de datos está alojada en Mongo Atlas y la aplicación está construida con Netx.js para un rendimiento optimizado y un mejor rendimiento en el SEO.",
@@ -71,7 +71,7 @@ export const projects = [
     code: "https://github.com/AcureroAdrian/toDo-next.js",
     visit: "https://to-do-next-js-theta.vercel.app",
     id: 3,
-  },
+  }, */
 
   // Project 5
   {
